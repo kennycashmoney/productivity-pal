@@ -1,0 +1,11 @@
+{
+  "name": "productivity-pal",
+  "version": "1.0.0",
+  "description": "habit tracking app",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && nodemon"
+  },
+  "author": "kennycashmoney",
+  "license": "ISC"
+}
