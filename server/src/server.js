@@ -8,7 +8,7 @@ const app = require("./app");
 const PORT = process.env.PORT || 5000;
 
 // const MONGO_URL =
-//   "mongodb+srv://nasa-api:eEp1ldxjyPXAc1F2@cluster0.sacwqlo.mongodb.net/nasa";
+//   "mongodb+srv:";
 
 const server = http.createServer(app);
 
