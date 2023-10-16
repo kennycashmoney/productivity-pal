@@ -1,10 +1,15 @@
 {
   "name": "productivity-pal",
   "version": "1.0.0",
-  "description": "habit tracking app",
+  "description": "Fullstack Habit Tracking Application",
   "main": "index.js",
   "scripts": {
-    "server": "cd server && nodemon"
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install": "npm run install-server && npm run install-client",
+    "server": "nodemon --prefix server",
+    "client": "npm start --prefix client",
+    "deploy": "npm run build --prefix client && npm start --prefix server"
   },
   "author": "kennycashmoney",
   "license": "ISC"
