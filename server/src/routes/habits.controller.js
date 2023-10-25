@@ -3,7 +3,7 @@ const { createNewHabit, getAllHabits } = require("../models/habits.model");
 async function httpCreateHabit(req, res) {
   const habit = req.body;
 
-  if (!habit.title) {
+  if (!habit.habitTitle) {
     return res.status(400).json({ error: "Missing required title property" });
   }
 
